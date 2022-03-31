@@ -1,0 +1,41 @@
+body {
+	background: #EFEFBB;
+	background: linear-gradient(to right, rgb(12, 146, 41), rgb(188, 236, 110));
+	color: white;
+	margin: 0;
+	font-family: rubik;
+
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: rubik;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    
+}
+img {
+   width: 152px;
+   height: 210px;
+   border-radius: 10px;
+}
+.container {
+   height: 100vh;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+   
+  
+  
+   
+}
+
+ footer {
+     text-align: center;
+     color: black;
+     margin-top: 10px;
+ }
+
+
+ 
